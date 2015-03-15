@@ -1,0 +1,44 @@
+/* begin Page */
+/*  version 2.4.0.26594, file checksum is EA2DB051. */
+body, p{
+  margin: 0.5em ;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: justify;
+}
+H1{
+  margin: 0.67em ;
+  color: #276282;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+}
+H2{
+  margin: 0.8em ;
+  font-style: inherit;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #276282;
+}
+H3{
+  margin: 1em ;
+  font-size: 16px;
+  color: #4F7492;
+}
+H4{
+  margin: 1.25em ;
+  font-size: 13px;
+  color: #21272C;
+}
+H5{
+  margin: 1.67em ;
+  font-size: 11px;
+  color: #21272C;
+}
+H6{
+  margin: 2.33em ;
+  font-size: 9px;
+  color: #21272C;
+}

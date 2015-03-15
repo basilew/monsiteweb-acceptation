@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/ptaff.ca/commonprint.cssphp" type="text/css" media="print" title="Style classique"?>
+<?xml-stylesheet href="http://ptaff.ca/bridge/encheres/index.cssphp" type="text/css" media="screen" title="Style classique"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head profile="http://dublincore.org/documents/dcq-html/">
+		<title>Bridge, bidding guide</title>
+		<meta http-equiv="Content-Language"    content="en" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type"  content="text/css" />
+		<meta http-equiv="Content-Type"        content="application/xhtml+xml; charset=UTF-8" />
+		<meta http-equiv="PICS-Label"          content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://ptaff.ca/" r (nz 1 vz 1 +lz 1 oz 1 cz 1) gen true for "http://www.ptaff.ca/" r (nz 1 vz 1 lz 1 oz 1 cz 1) gen true for "http://tuxstickers.ptaff.ca/" r (nz 1 vz 1 lz 1 oz 1 cz 1) gen true for "http://tuxstickers.ptaff.ca/" r (nz 1 vz 1 lz 1 oz 1 cz 1) gen true for "http://purl.org/DC/elements/1.0/" r (nz 1 vz 1 lz 1 oz 1 cz 1) gen true for "http://purl.org/dc/terms/" r (nz 1 vz 1 lz 1 oz 1 cz 1) gen true for "http://geotags.com/geo/" r (nz 1 vz 1 lz 1 oz 1 cz 1))' />
+		<meta http-equiv="X-UA-Compatible"     content="IE=EmulateIE7" />
+		<meta name="DC.Creator"                                         content="Patrice Levesque" />
+		<meta name="DC.Date"                   scheme="DCTERMS.W3CDTF"  content="2002" />
+		<meta name="DC.Date.DateCopyrighted"   scheme="DCTERMS.W3CDTF"  content="2002" />
+		<meta name="DC.Description"                                     content="Scoring tables, bidding system and memory cards for the game of bridge." />
+		<meta name="DC.Format"                 scheme="IMT"             content="application/xhtml+xml" />
+		<meta name="DC.Identifier"             scheme="DCTERMS.URI"     content="http://ptaff.ca/bridge/encheres/?lang=en_CA" />
+		<meta name="DC.Language"               scheme="DCTERMS.RFC3066" content="en" />
+		<meta name="DC.Publisher"                                       content="ptaff.ca" />
+		<meta name="DC.Rights"                 scheme="DCTERMS.URI"     content="http://www.gnu.org/copyleft/fdl.html" />
+		<meta name="DC.RightsHolder"                                    content="Patrice Levesque" />
+		<meta name="DC.Subject"                                         content="Arts &#38; Leisure; Show arts, leisure and sports, games; Chance games; Card games" />
+		<meta name="DC.Subject.Classification" scheme="DDC"             content="795.4" />
+		<meta name="DC.Title"                                           content="Bridge, bidding guide" />
+		<meta name="DC.Type"                   scheme="DCMIType"        content="Text" />
+		<meta name="DCTERMS.conformsTo"        scheme="DCTERMS.URI"     content="http://www.w3.org/TR/CSS21/" />
+		<meta name="DCTERMS.conformsTo"        scheme="DCTERMS.URI"     content="http://www.w3.org/TR/xhtml11/" />
+		<meta name="DCTERMS.conformsTo"        scheme="DCTERMS.URI"     content="http://www.w3.org/TR/WCAG10/" />
+		<meta name="DCTERMS.created"           scheme="DCTERMS.W3CDTF"  content="2002" />
+		<meta name="DCTERMS.modified"          scheme="DCTERMS.W3CDTF"  content="2013-04-23" />
+		<meta name="Description"                                        content="Scoring tables, bidding system and memory cards for the game of bridge." />
+		<meta name="geo.placename"                                      content="Villeray, Montreal" />
+		<meta name="geo.position"              scheme="WGS84"           content="45.5505; -73.6133" />
+		<meta name="geo.region"                scheme="ISO3166"         content="CA-QC" />
+		<meta name="ICBM"                      scheme="WGS84"           content="45.5505, -73.6133" />
+		<link rel="alternate"      type="application/xhtml+xml" href=".?lang=fr_CA" title="Version francophone" hreflang="fr" xml:lang="en" />
+		<link rel="Author"         type="application/xhtml+xml" href="/wayne/?lang=en_CA" title="Patrice Levesque" />
+		<link rel="Copyright"      type="application/xhtml+xml" href="#copyright" title="Copyright" />
+		<link rel="Help"           type="application/xhtml+xml" href="http://ptaff.ca/manifeste/" title="Aide" />
+		<link rel="Home"           type="application/xhtml+xml" href="http://ptaff.ca/" title="Accueil" />
+		<link rel="icon"           type="image/ico"             href="favicon.ico" />
+		<link rel="license"        type="text/html"             href="http://www.gnu.org/copyleft/fdl.html" title="Licence" />
+		<link rel="meta"           type="application/rdf+xml"   href="/bridge/encheres/?lang=en_CA&#38;cc=1" title="Creative Commons" />
+		<link rel="meta"           type="application/rdf+xml"   href="http://ptaff.ca/labels.rdf" title="ICRA labels" />
+		<link rel="Next"           type="application/xhtml+xml" href="http://ptaff.ca/bridge/duplicata/?lang=en_CA" title="Bridge, duplicate scoring tables" />
+		<link rel="P3Pv1"          type="text/xml"              href="/w3c/p3p.xml" title="Politique de confidentialit&#233;" />
+		<link rel="Parent"         type="application/xhtml+xml" href="http://ptaff.ca/" />
+		<link rel="Previous"       type="application/xhtml+xml" href="http://ptaff.ca/continents/?lang=en_CA" title="Top-Level Domains by Continent" />
+		<link rel="schema.DC"      type="text/html"             href="http://purl.org/DC/elements/1.0/" />
+		<link rel="schema.DCTERMS" type="text/html"             href="http://purl.org/dc/terms/" />
+		<link rel="shortcut icon"  type="image/ico"             href="/favicon.ico" />
+		<link rel="Top"            type="application/xhtml+xml" href="http://ptaff.ca/" title="Accueil" />
+		<link rel="Up"             type="application/xhtml+xml" href="http://ptaff.ca/" />
+		<script type="text/javascript" src="/ptaff.ca/scripts.js"></script>
+	</head>
+<body>
+  <div class="prepage">
+    <div class="page">
+    <div>
+    <div class="titleboxlang"><ul><li xml:lang="fr"><a href="/bridge/encheres/?lang=fr_CA" title="Fran&#231;ais" hreflang="fr"><img src="/images/flags/fr_CA.png" alt="Fran&#231;ais" width="14" height="14" /></a></li><li class="active"><img src="/images/flags/en_CA.png" alt="English" width="14" height="14" /></li></ul></div>      <h1>Bridge bidding guide<br /><span style="font-size: smaller;">Inspired by the American Standard</span></h1>
+        </div>
+        <div class="textintro">
+      <p>These basic charts are helpful to refresh memory.  One must keep in mind that context judgment overrides any bid, because any grid will always be incomplete - like these which don't take opponent's bid into account.</p>
+      <p>In each table, bids are ordered from the most to the least preferred, if hesitating.</p>
+      <p>This system uses High Card Points (HCP) (aces=4, kings=3, queens=2, jacks=1).  Use your judgment to tweak.</p>
+        </div>
+
+        <table class="bridgebid" border="0" cellspacing="0" cellpadding="0">
+      <tr><th colspan="2" class="mycaption"><h2>Openings</h2></th></tr>
+        <tr>
+      <th><a href="#b3sa"><span class="bid">3NT</span></a></th>
+      <td>24+ HCP, balanced hand</td>
+        </tr>
+        <tr>
+      <th><a href="#b2tr"><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="C" /></span></a></th>
+      <td>22+ HCP, at least a 5+ card suit, forcing for a turn.<br /><small>At next turn, bid that color</small></td>
+        </tr>
+        <tr>
+      <th><a href="#b2sa"><span class="bid">2NT</span></a></th>
+      <td>21-23 HCP, balanced hand</td>
+        </tr>
+        <tr>
+      <th><a href="#b1sa"><span class="bid">1NT</span></a></th>
+      <td>16-18 HCP, balanced hand</td>
+        </tr>
+        <tr>
+      <th><a href="#b1pi"><span class="bid">1<img src="../xpi.png" width="12" height="12" alt="S" /></span></a></th>
+      <td>13-21 HCP, 5+ spades<br /><small>Bid the longest major; if of equal length, with 16+ HCP bid <span class="bid">1<img src="../yco.png" width="9" height="9" alt="H" /></span> or else <span class="bid">1<img src="../ypi.png" width="9" height="9" alt="S" /></span></small></td>
+        </tr>
+        <tr>
+      <th><a href="#b1co"><span class="bid">1<img src="../xco.png" width="12" height="12" alt="H" /></span></a></th>
+      <td>13-21 HCP, 5+ hearts<br /><small>Bid the longest major; if of equal length, with 16+ HCP bid <span class="bid">1<img src="../yco.png" width="9" height="9" alt="H" /></span> or else <span class="bid">1<img src="../ypi.png" width="9" height="9" alt="S" /></span></small></td>
+        </tr>
+        <tr>
+      <th><a href="#b1k"><span class="bid">1<img src="../xk.png" width="12" height="12" alt="D" /></span></a></th>
+      <td>13-21 HCP, 3+ diamonds<br /><small>Bid the longest minor; if of equal length, bid <span class="bid">1<img src="../ytr.png" width="9" height="9" alt="C" /></span> with 3 cards, else <span class="bid">1<img src="../yk.png" width="9" height="9" alt="D" /></span></small></td>
+        </tr>
+        <tr>
+      <th><a href="#b1tr"><span class="bid">1<img src="../xtr.png" width="12" height="12" alt="C" /></span></a></th>
+      <td>13-21 HCP, 3+ clubs<br /><small>Bid the longest minor; if of equal length, bid <span class="bid">1<img src="../ytr.png" width="9" height="9" alt="C" /></span> with 3 cards, else <span class="bid">1<img src="../yk.png" width="9" height="9" alt="D" /></span></small></td>
+        </tr>
+        <tr>
+      <th><a href="#b3col"><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="C" /></span>, <span class="bid">3<img src="../xk.png" width="12" height="12" alt="D" /></span>, <span class="bid">3<img src="../xco.png" width="12" height="12" alt="H" /></span>, <span class="bid">3<img src="../xpi.png" width="12" height="12" alt="S" /></span></a></th>
+      <td>6-12 HCP, 7+ cards in that suit<br /><small>This suit must hold 2 of the 3 honors or 3 of the 5 honors</small></td>
+        </tr>	
+        <tr>
+      <th><a href="#b2co"><span class="bid">2<img src="../xco.png" width="12" height="12" alt="H" /></span></a></th>
+      <td>6-12 HCP, 6 hearts<br /><small>This suit must hold 2 of the 3 honors or 3 of the 5 honors</small></td>
+        </tr>
+        <tr>
+      <th><a href="#b2pi"><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="S" /></span></a></th>
+      <td>6-12 HCP, 6 spades<br /><small>This suit must hold 2 of the 3 honors or 3 of the 5 honors</small></td>
+        </tr>
+        <tr>
+      <th><a href="#b2k"><span class="bid">2<img src="../xk.png" width="12" height="12" alt="D" /></span></a></th>
+      <td>6-12 HCP, 6 diamonds<br /><small>This suit must hold 2 of the 3 honors or 3 of the 5 honors</small></td>
+        </tr>
+        </table>
+
+		<table class="bridgebid call2" border="0" cellspacing="0" cellpadding="0" id="b1tr">
+  <tr><th colspan="2" class="mycaption"><h3>Replies to {<span class="bid">1<img src="../xtr.png" width="12" height="12" alt="C" /></span>}</h3></th></tr>
+
+						<tr>
+          <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+          <td>16+ HCP, nice diamonds</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+          <td>16+ HCP, nice hearts</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+          <td>16+ HCP, nice spades</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="C" /></span></th>
+          <td>10+ HCP, 5+ clubs</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2NT</span></th>
+          <td>10+ HCP, balanced hand, maybe a fit</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+          <td>6+ HCP, 4+ diamonds</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+          <td>6+ HCP, 4+ hearts</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+          <td>6+ HCP, 4+ spades</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="C" /></span></th>
+          <td>6-9 HCP, 5+ clubs</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1NT</span></th>
+          <td>6-9 HCP, less than 5 clubs</td>
+						</tr>
+		</table>				
+		<table class="bridgebid call2" border="0" cellspacing="0" cellpadding="0" id="b1k">
+  <tr><th colspan="2" class="mycaption"><h3>Replies to {<span class="bid">1<img src="../xk.png" width="12" height="12" alt="D" /></span>}</h3></th></tr>
+
+						<tr>
+          <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+          <td>16+ HCP, nice hearts</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+          <td>16+ HCP, nice spades</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="C" /></span></th>
+          <td>16+ HCP, nice clubs</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+          <td>10+ HCP, 5+ diamonds</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2NT</span></th>
+          <td>10+ HCP, balanced hand, maybe a fit</td>
+						</tr>
+            <tr>    
+          <th><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="C" /></span></th>
+          <td>10+ HCP</td>
+						</tr>   
+						<tr>    
+          <th><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="C" /></span> and support at next turn</th>
+          <td>10-11 HCP, 5+ diamonds</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+          <td>6+ HCP, 4+ hearts</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+          <td>6+ HCP, 4+ spades</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+          <td>6-9 HCP, 5+ diamonds</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1NT</span></th>
+          <td>6-9 HCP, less than 5 diamonds</td>
+						</tr>
+		</table>				
+		<table class="bridgebid call2" border="0" cellspacing="0" cellpadding="0" id="b1co">
+  <tr><th colspan="2" class="mycaption"><h3>Replies to {<span class="bid">1<img src="../xco.png" width="12" height="12" alt="H" /></span>}</h3></th></tr>
+
+						<tr>
+          <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+          <td>16+ HCP, nice spades</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="C" /></span></th>
+          <td>16+ HCP, nice clubs</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+          <td>16+ HCP, nice diamonds</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+          <td>10+ HCP, 3+ hearts</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2NT</span></th>
+          <td>10+ HCP, balanced hand, maybe a fit</td>
+						</tr>
+            <tr>    
+          <th><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="C" /></span></th>
+          <td>10+ HCP</td>
+						</tr>   
+						<tr>    
+          <th><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="C" /></span> and support at next turn</th>
+          <td>10-11 HCP, 3+ hearts</td>
+						</tr>
+            <tr>    
+          <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+          <td>10+ HCP</td>
+						</tr>   
+						<tr>    
+          <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="D" /></span> and support at next turn</th>
+          <td>10-11 HCP, 3+ hearts</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+          <td>6+ HCP, 4+ spades</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+          <td>6-9 HCP, 3+ hearts</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1NT</span></th>
+          <td>6-9 HCP, less than 3 hearts</td>
+						</tr>
+		</table>				
+		<table class="bridgebid call2" border="0" cellspacing="0" cellpadding="0" id="b1pi">
+  <tr><th colspan="2" class="mycaption"><h3>Replies to {<span class="bid">1<img src="../xpi.png" width="12" height="12" alt="S" /></span>}</h3></th></tr>
+
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="C" /></span></th>
+          <td>16+ HCP, nice clubs</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+          <td>16+ HCP, nice diamonds</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+          <td>16+ HCP, nice hearts</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+          <td>10+ HCP, 3+ spades</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2NT</span></th>
+          <td>10+ HCP, balanced hand, maybe a fit</td>
+						</tr>
+            <tr>    
+          <th><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="C" /></span></th>
+          <td>10+ HCP</td>
+						</tr>   
+						<tr>    
+          <th><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="C" /></span> and support at next turn</th>
+          <td>10-11 HCP, 3+ spades</td>
+						</tr>
+            <tr>    
+          <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+          <td>10+ HCP</td>
+						</tr>   
+						<tr>    
+          <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="D" /></span> and support at next turn</th>
+          <td>10-11 HCP, 3+ spades</td>
+						</tr>
+            <tr>    
+          <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+          <td>10+ HCP</td>
+						</tr>   
+						<tr>    
+          <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="H" /></span> and support at next turn</th>
+          <td>10-11 HCP, 3+ spades</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+          <td>6-9 HCP, 3+ spades</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1NT</span></th>
+          <td>6-9 HCP, less than 3 spades</td>
+						</tr>
+		</table>				
+		<table class="bridgebid call2" border="0" cellpadding="0" cellspacing="0" id="b1sa">
+  <tr><th colspan="2" class="mycaption"><h3>Replies to {<span class="bid">1NT</span>}</h3></th></tr>
+						<tr>
+          <th><a href="#b1sa-4tr"><span class="bid">4<img src="../xtr.png" width="12" height="12" alt="C" /></span></a></th>
+          <td>16+ HCP, <em>Gerber</em> (aces inquiry)</td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-4sa"><span class="bid">4NT</span></a></th>
+          <td>15-16 HCP, balanced hand</td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-3pi"><span class="bid">3<img src="../xpi.png" width="12" height="12" alt="S" /></span></a></th>
+          <td>9+ HCP, 5+ spades, forcing</td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-3co"><span class="bid">3<img src="../xco.png" width="12" height="12" alt="H" /></span></a></th>
+          <td>9+ HCP, 5+ hearts, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="C" /></span></th>
+          <td>9+ HCP, 5+ clubs, forcing<br /><small>Ponder <span class="bid">3NT</span> if slam is not foreseeable</small></td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+          <td>9+ HCP, 5+ diamonds, forcing<br /><small>Ponder <span class="bid">3NT</span> if slam is not foreseeable</small></td>
+						</tr>
+						<tr>
+          <th><span class="bid">3NT</span></th>
+          <td>9-14 HCP, no fit in major color, to play</td>
+						</tr>
+						<tr>
+          <th><span class="bid">4<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+          <td>8+ HCP, 6+ spades, to play</td>
+						</tr>
+						<tr>
+          <th><span class="bid">4<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+          <td>8+ HCP, 6+ hearts, to play</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2NT</span></th>
+          <td>7-8 HCP, balanced hand</td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-2k"><span class="bid">2<img src="../xk.png" width="12" height="12" alt="D" /></span></a></th>
+          <td>6+ HCP, 5+ hearts, <em>Jacoby Transfer</em></td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-2co"><span class="bid">2<img src="../xco.png" width="12" height="12" alt="H" /></span></a></th>
+          <td>6+ HCP, 5+ spades, <em>Jacoby Transfer</em></td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-2tr"><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="C" /></span></a></th>
+          <td>6+ HCP, <em>Stayman</em> (4-card major inquiry)</td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-4k"><span class="bid">4<img src="../xk.png" width="12" height="12" alt="D" /></span></a></th>
+          <td>0+ HCP, 6+ hearts, <em>Texas Transfer</em></td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-4co"><span class="bid">4<img src="../xco.png" width="12" height="12" alt="H" /></span></a></th>
+          <td>0+ HCP, 6+ spades, <em>Texas Transfer</em></td>
+						</tr>
+		</table>
+    <!-- =================================================================== -->
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-2tr">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">1NT</span>}-{<span class="bid">2<img src="../xtr.png" width="12" height="12" alt="C" /></span>} <em>Stayman</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+  <td>4+ hearts</td>
+    </tr>
+    <tr>
+  <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+  <td>4+ spades</td>
+    </tr>
+    <tr>
+  <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+  <td>Neither 4+ spades nor 4+ hearts</td>
+    </tr>
+    </table>
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-2k">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">1NT</span>}-{<span class="bid">2<img src="../xk.png" width="12" height="12" alt="D" /></span>} <em>Jacoby Transfer</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+  <td>To keep strong hand hidden</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-2co">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">1NT</span>}-{<span class="bid">2<img src="../xco.png" width="12" height="12" alt="H" /></span>} <em>Jacoby Transfer</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+  <td>To keep strong hand hidden</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-3co">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">1NT</span>}-{<span class="bid">3<img src="../xco.png" width="12" height="12" alt="H" /></span>}</h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+  <td>Hearts fit</td>
+    </tr>
+    <tr>
+  <th><span class="bid">3NT</span></th>
+  <td>No hearts fit</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-3pi">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">1NT</span>}-{<span class="bid">3<img src="../xpi.png" width="12" height="12" alt="S" /></span>}</h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+  <td>Spades fit</td>
+    </tr>
+    <tr>
+  <th><span class="bid">3NT</span></th>
+  <td>No spades fit</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-4tr">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">1NT</span>}-{<span class="bid">4<img src="../xtr.png" width="12" height="12" alt="C" /></span>} <em>Gerber</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+  <td>0 or 4 aces in hand</td>
+    </tr>
+    <tr>
+  <th><span class="bid">4<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+  <td>1 ace in hand</td>
+    </tr>
+    <tr>
+  <th><span class="bid">4<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+  <td>2 aces in hand</td>
+    </tr>
+    <tr>
+  <th><span class="bid">4NT</span></th>
+  <td>3 aces in hand</td>
+    </tr>
+    </table>
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-4k">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">1NT</span>}-{<span class="bid">4<img src="../xk.png" width="12" height="12" alt="D" /></span>} <em>Texas Transfer</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+  <td>To keep strong hand hidden</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-4co">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">1NT</span>}-{<span class="bid">4<img src="../xco.png" width="12" height="12" alt="H" /></span>} <em>Texas Transfer</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+  <td>To keep strong hand hidden</td>
+    </tr>
+    </table>
+
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-4sa">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">1NT</span>}-{<span class="bid">4NT</span>}</h4></th></tr>
+    <tr>
+  <th><span class="bid">6NT</span></th>
+  <td>17-18 HCP</td>
+    </tr>
+    </table>
+
+		<table class="bridgebid call2" border="0" cellspacing="0" cellpadding="0" id="b2tr">
+  <tr><th colspan="2" class="mycaption"><h3>Replies to {<span class="bid">2<img src="../xtr.png" width="12" height="12" alt="C" /></span>}</h3></th></tr>
+						<tr>
+          <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+          <td>7+ HCP, 5+ hearts</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+          <td>7+ HCP, 5+ spades</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="C" /></span></th>
+          <td>7+ HCP, 5+ clubs</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+          <td>7+ HCP, 5+ diamonds</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2NT</span></th>
+          <td>8-10 HCP, balanced hand</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+          <td>Default bid if nothing else is possible</td>
+						</tr>
+		</table>
+
+
+		<table class="bridgebid call2" border="0" cellpadding="0" cellspacing="0" id="b2k">
+  <tr><th colspan="2" class="mycaption"><h3>Replies to {<span class="bid">2<img src="../xk.png" width="12" height="12" alt="D" /></span>}</h3></th></tr>
+						<tr>
+          <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+          <td>10+ HCP, 5+ hearts, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+          <td>10+ HCP, 5+ spades, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="C" /></span></th>
+          <td>10+ HCP, 5+ clubs, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2NT</span></th>
+          <td>10+ HCP, game invitation<br /><small>Partner will bid a new suit at the 3rd level with a stopper in that suit or will return to the original suit if not possible</small></td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="D" /></span>, <span class="bid">3NT</span>, <span class="bid">4<img src="../xco.png" width="12" height="12" alt="H" /></span>, <span class="bid">4<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+          <td>10+ HCP, to play</td>
+						</tr>
+		</table>
+		<table class="bridgebid call2" border="0" cellpadding="0" cellspacing="0" id="b2co">
+  <tr><th colspan="2" class="mycaption"><h3>Replies to {<span class="bid">2<img src="../xco.png" width="12" height="12" alt="H" /></span>}</h3></th></tr>
+						<tr>
+          <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+          <td>10+ HCP, 5+ spades, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="C" /></span></th>
+          <td>10+ HCP, 5+ clubs, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+          <td>10+ HCP, 5+ diamonds, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2NT</span></th>
+          <td>10+ HCP, game invitation<br /><small>Partner will bid a new suit at the 3rd level with a stopper in that suit or will return to the original suit if not possible</small></td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xco.png" width="12" height="12" alt="H" /></span>, <span class="bid">3NT</span>, <span class="bid">4<img src="../xco.png" width="12" height="12" alt="H" /></span>, <span class="bid">4<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+          <td>10+ HCP, to play</td>
+						</tr>
+		</table>
+		<table class="bridgebid call2" border="0" cellpadding="0" cellspacing="0" id="b2pi">
+  <tr><th colspan="2" class="mycaption"><h3>Replies to {<span class="bid">2<img src="../xpi.png" width="12" height="12" alt="S" /></span>}</h3></th></tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="C" /></span></th>
+          <td>10+ HCP, 5+ clubs, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+          <td>10+ HCP, 5+ diamonds, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+          <td>10+ HCP, 5+ hearts, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2NT</span></th>
+          <td>10+ HCP, game invitation<br /><small>Partner will bid a new suit at the 3rd level with a stopper in that suit or will return to the original suit if not possible</small></td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xpi.png" width="12" height="12" alt="S" /></span>, <span class="bid">3NT</span>, <span class="bid">4<img src="../xco.png" width="12" height="12" alt="H" /></span>, <span class="bid">4<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+          <td>10+ HCP, to play</td>
+						</tr>
+		</table>
+
+		<table class="bridgebid call2" border="0" cellpadding="0" cellspacing="0" id="b2sa">
+  <tr><th colspan="2" class="mycaption"><h3>Replies to {<span class="bid">2NT</span>}</h3></th></tr>
+						<tr>
+          <th><a href="#b2sa-4tr"><span class="bid">4<img src="../xtr.png" width="12" height="12" alt="C" /></span></a></th>
+          <td>10+ HCP, <em>Gerber</em> (aces inquiry)</td>
+						</tr>
+						<tr>
+          <th><a href="#b2sa-4sa"><span class="bid">4NT</span></a></th>
+          <td>10+ HCP, balanced hand</td>
+						</tr>
+						<tr>
+          <th><a href="#b2sa-3k"><span class="bid">3<img src="../xk.png" width="12" height="12" alt="D" /></span></a></th>
+          <td>0+ HCP, 5+ hearts, <em>Texas Transfer</em></td>
+						</tr>
+						<tr>
+          <th><a href="#b2sa-3co"><span class="bid">3<img src="../xco.png" width="12" height="12" alt="H" /></span></a></th>
+          <td>0+ HCP, 5+ spades, <em>Texas Transfer</em></td>
+						</tr>
+		</table>
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b2sa-3k">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">2NT</span>}-{<span class="bid">3<img src="../xk.png" width="12" height="12" alt="D" /></span>} <em>Texas Transfer</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">3<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+  <td>To keep strong hand hidden</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b2sa-3co">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">2NT</span>}-{<span class="bid">3<img src="../xco.png" width="12" height="12" alt="H" /></span>} <em>Texas Transfer</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">3<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+  <td>To keep strong hand hidden</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b2sa-4tr">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">2NT</span>}-{<span class="bid">4<img src="../xtr.png" width="12" height="12" alt="C" /></span>} <em>Gerber</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">5<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+  <td>0 or 4 aces in hand</td>
+    </tr>
+    <tr>
+  <th><span class="bid">5<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+  <td>1 ace in hand</td>
+    </tr>
+    <tr>
+  <th><span class="bid">5<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+  <td>2 aces in hand</td>
+    </tr>
+    <tr>
+  <th><span class="bid">5NT</span></th>
+  <td>3 aces in hand</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b2sa-4sa">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">2NT</span>}-{<span class="bid">4NT</span>}</h4></th></tr>
+    <tr>
+  <th><span class="bid">6NT</span></th>
+  <td>22-23 HCP</td>
+    </tr>
+    </table>
+
+		<table class="bridgebid call2" border="0" cellpadding="0" cellspacing="0" id="b3col">
+  <tr><th colspan="2" class="mycaption"><h3>Replies to {<span class="bid">3<img src="../xtr.png" width="12" height="12" alt="C" /></span>, <span class="bid">3<img src="../xk.png" width="12" height="12" alt="D" /></span>, <span class="bid">3<img src="../xco.png" width="12" height="12" alt="H" /></span>, <span class="bid">3<img src="../xpi.png" width="12" height="12" alt="S" /></span>}</h3></th></tr>
+						<tr>
+          <th><span class="bid">Judgment</span></th>
+          <td>15+ HCP</td>
+						</tr>
+		</table>
+
+    <table class="bridgebid call2" border="0" cellpadding="0" cellspacing="0" id="b3sa">
+  <tr><th colspan="2" class="mycaption"><h3>Replies to {<span class="bid">3NT</span>}</h3></th></tr>
+    <tr>
+  <th><a href="#b3sa-4sa"><span class="bid">4NT</span></a></th>
+  <td>8+ HCP, <em>Blackwood</em> (aces inquiry)</td>
+    </tr>
+    <tr>
+  <th><a href="#b3sa-4k"><span class="bid">4<img src="../xk.png" width="12" height="12" alt="D" /></span></a></th>
+  <td>0+ HCP, 5+ hearts, <em>Texas Transfer</em></td>
+    </tr>
+    <tr>
+  <th><a href="#b3sa-4co"><span class="bid">4<img src="../xco.png" width="12" height="12" alt="H" /></span></a></th>
+  <td>0+ HCP, 5+ spades, <em>Texas Transfer</em></td>
+    </tr>
+    <tr>
+  <th><a href="#b3sa-4tr"><span class="bid">4<img src="../xtr.png" width="12" height="12" alt="C" /></span></a></th>
+  <td>0+ HCP, <em>Stayman</em> (4-card major inquiry)</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b3sa-4tr">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">3NT</span>}-{<span class="bid">4<img src="../xtr.png" width="12" height="12" alt="C" /></span>} <em>Stayman</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+  <td>4+ hearts</td>
+    </tr>
+    <tr>
+  <th><span class="bid">4<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+  <td>4+ spades</td>
+    </tr>
+    <tr>
+  <th><span class="bid">4<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+  <td>Neither 4+ spades nor 4+ hearts</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b3sa-4k">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">3NT</span>}-{<span class="bid">4<img src="../xk.png" width="12" height="12" alt="D" /></span>} <em>Texas Transfer</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+  <td>To keep strong hand hidden</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b3sa-4co">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">3NT</span>}-{<span class="bid">4<img src="../xco.png" width="12" height="12" alt="H" /></span>} <em>Texas Transfer</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+  <td>To keep strong hand hidden</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b3sa-4sa">
+  <tr><th colspan="2" class="mycaption"><h4>Replies to {<span class="bid">3NT</span>}-{<span class="bid">4NT</span>} <em>Blackwood</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">5<img src="../xtr.png" width="12" height="12" alt="C" /></span></th>
+  <td>0 or 4 aces in hand</td>
+    </tr>
+    <tr>
+  <th><span class="bid">5<img src="../xk.png" width="12" height="12" alt="D" /></span></th>
+  <td>1 ace in hand</td>
+    </tr>
+    <tr>
+  <th><span class="bid">5<img src="../xco.png" width="12" height="12" alt="H" /></span></th>
+  <td>2 aces in hand</td>
+    </tr>
+    <tr>
+  <th><span class="bid">5<img src="../xpi.png" width="12" height="12" alt="S" /></span></th>
+  <td>3 aces in hand</td>
+    </tr>
+    </table>
+
+
+
+
+
+
+
+    			<div class="ptaffcafooter">
+				<hr />
+				<div class="dates">
+<div class="vevent"><p class="description">Bridge, bidding guide</p><span class="summary">Creation</span>&#160;: <abbr class="dtstart" title="2002">2002</abbr><div class="adr"><span class="locality">Villeray</span><div class="geo"><abbr class="latitude" title="45.5505">N 45&#176; 33&#8242;</abbr> <abbr class="longitude" title="-73.6133">W 73&#176; 36&#8242;</abbr></div></div></div>
+<div class="vevent">
+<p class="description">Bridge, bidding guide</p><span class="summary">Last update</span>&#160;: <abbr class="dtstart" title="2013-04-23">April 23rd, 2013</abbr><span class="filler">, </span><div class="adr"><span class="locality">Villeray</span>, <div class="geo"><abbr class="latitude" title="45.5505">N 45&#176; 33&#8242;</abbr> <abbr class="longitude" title="-73.6133">W 73&#176; 36&#8242;</abbr></div></div></div>
+</div>
+				<hr />
+				<ul class="bottomlinks">
+					<li class="firstli"><a accesskey="1" title="Access key: 1" rel="Home" href="/?lang=en_CA">Home</a></li>
+					<li><a accesskey="3" href="/plan/?lang=en_CA" title="Access key: 3">Site&#160;map</a></li>
+					<li><a accesskey="9" rel="Author" href="/sitemail/?to=ptaff&#38;lang=en_CA" title="Access key: 9">Contact&#160;us</a></li>
+					<li><a href="/manifeste/?lang=en_CA#confidentialite">Confidentiality</a></li>
+					<li><a accesskey="0" href="/accessibilite/?lang=en_CA" title="Access key: 0">Accessibility</a></li>
+					<li class="lastli"><a accesskey="8" rel="Help" href="/manifeste/?lang=en_CA" title="Access key: 8">About&#160;ptaff.ca</a></li>
+				</ul>
+				<ul class="valid">
+					<li><span class="vbutton"><a href="http://jigsaw.w3.org/css-validator/check/referer" hreflang="en" title="CSS compliance"><span class="yleft"><acronym xml:lang="en" title="World Wide Web Consortium"><span class="w3">W3</span><span class="c">C</span></acronym> </span><span class="yright"><span xml:lang="en" title="Cascading Style Sheets" class="rec">CSS</span><span class="ver">2.1</span></span></a></span></li>
+					<li><span class="vbutton"><a href="http://validator.w3.org/check/referer" hreflang="en" title="XHTML 1.1 compliance"><span class="yleft"><acronym xml:lang="en" title="World Wide Web Consortium"><span class="w3">W3</span><span class="c">C</span></acronym> </span><span class="yright"><span xml:lang="en" title="eXtensible HyperText Markup Language" class="rec">XHTML</span><span class="ver">1.1</span></span></a></span></li>
+					<li>
+						<span class="vbutton">
+							<a href="http://www.w3.org/WAI/WCAG1AAA-Conformance" hreflang="en" title="Triple-A W3C-WAI compliance">
+								<span class="yleft"><acronym xml:lang="en" title="World Wide Web Consortium"><span class="w3">W3</span><span class="c">C</span></acronym> </span><span class="yright"><span xml:lang="en" title="Web Accessibility Initiative" class="rec">WAI</span>-<span class="ver">AAA</span></span>
+							</a>
+						</span>
+					</li>
+				</ul>
+				<p class="copyright" id="copyright">Copyright &#169; 2002 <a href="/wayne/?lang=en_CA">Patrice Levesque</a>. Permission is granted to copy, distribute and/or modify this document under the terms of the <!--Creative Commons License--><a rel="license" href="http://www.gnu.org/copyleft/fdl.html"><acronym title="GNU's Not Unix">GNU</acronym> Free Documentation License</a><!--/Creative Commons License-->, Version 1.2 or any later version published by the <a href="http://fsf.org/">Free Software Foundation</a>.</p>
+			</div>
+      </div>
+      </div>
+    <form id="topmenu" action="#">
+<ul class="menubar" id="mymenu">
+<li class="homebutton"><div class="specialleaf"><a href="http://ptaff.ca/?lang=en_CA"><img src="http://ptaff.ca/images/ptaff.png" width="16" height="16" alt="" />Home</a></div></li><li class="l1-generalites"><a class="doubleline" href="#">Computing &#38;<br />Generalities</a><ul><li class="submenufirst"><a href="http://ptaff.ca/olpc_militaire/"><span xml:lang="fr">Du potentiel militaire du <span xml:lang="en"><acronym title="One Laptop Per Child">OLPC</acronym></span> <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/crepyscule/?lang=en_CA">crepyscule</a></li><li><a href="http://ptaff.ca/midcat/?lang=en_CA">midcat</a></li><li><a href="http://ptaff.ca/statusable/?lang=en_CA">statusable</a></li><li><a href="http://ptaff.ca/table4chart/?lang=en_CA">Table4Chart</a></li><li><a href="http://ptaff.ca/xhtmail/?lang=en_CA">xhtmail</a></li><li><a href="http://ptaff.ca/ie/"><span xml:lang="fr">Du non-choix d'Internet Explorer <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/smart/?lang=en_CA">Smart Bookmarks and Bookmarklets</a></li><li><a href="http://ptaff.ca/ogg/"><span xml:lang="fr">La page francophone du format Ogg Vorbis <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/png/"><span xml:lang="fr">La page francophone du format <span xml:lang="en"><acronym title="Portable Network Graphics">PNG</acronym></span> <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/svg/"><span xml:lang="fr">La page francophone du format <span xml:lang="en"><acronym title="Scalable Vector Graphics">SVG</acronym></span> <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/xhtml/?lang=en_CA"><acronym title="eXtensible HyperText Markup Language">XHTML</acronym> :: How to succeed</a></li><li><a href="http://ptaff.ca/bruitdefond/"><span xml:lang="fr">Projet &#171;&#160;bruit de fond&#160;&#187; <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/typologie_blogues_quebecois/"><span xml:lang="fr">Typologie de la blogosph&#232;re qu&#233;b&#233;coise <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li class="submenulast"><a href="http://ptaff.ca/informatique/?lang=en_CA">About <strong>Computing &#38; Generalities</strong></a></li></ul></li><li class="l1-philosophie"><a class="doubleline" href="#">Philosophy<br />&#38; Psychology</a><ul><li class="submenufirst"><a href="http://ptaff.ca/premierdegre/"><span xml:lang="fr">Manifeste du 1<sup>er</sup> degr&#233; <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/campino/"><span xml:lang="fr">Campino <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li class="submenulast"><a href="http://ptaff.ca/philosophie/?lang=en_CA">About <strong>Philosophy &#38; Psychology</strong></a></li></ul></li><li class="l1-ssociales"><a class="doubleline" href="#">Social<br />Sciences</a><ul><li class="submenufirst"><a href="http://ptaff.ca/vote_electronique_2005/"><span xml:lang="fr">Vote &#233;lectronique&#160;: qui a le droit de savoir? <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li class="submenulast"><a href="http://ptaff.ca/sciences_sociales/?lang=en_CA">About <strong>Social Sciences</strong></a></li></ul></li><li class="l1-langage"><a  href="#">Language</a><ul><li class="submenufirst"><a href="http://ptaff.ca/phonolettre/?lang=en_CA">Num&#233;rophraseur</a></li><li><a href="http://ptaff.ca/laid/"><span xml:lang="fr">La laideur des mots <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/liendex/?lang=en_CA">Liendex</a></li><li class="submenulast"><a href="http://ptaff.ca/langage/?lang=en_CA">About <strong>Language</strong></a></li></ul></li><li class="l1-sciences"><a class="doubleline" href="#">Natural Sciences<br />&#38; Mathematics</a><ul><li class="submenufirst"><a href="http://ptaff.ca/sigleSRC/"><span xml:lang="fr">Ici Radio-Canada <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/air/?lang=en_CA">Estimating volumes of air through<br />various engines in an urban setting</a></li><li><a href="http://ptaff.ca/air/budget/?lang=en_CA">Estimate air consumption for you<br />or for a group (family, city, etc.)</a></li><li><a href="http://ptaff.ca/humidex/?lang=en_CA">Wind Chill and Humidex</a></li><li><a href="http://ptaff.ca/orage_montreal/?lang=en_CA">1,696 lightnings, the movie</a></li><li><a href="http://ptaff.ca/records_temperatures_precipitations_canada/?lang=en_CA">Canada : extreme climate</a></li><li><a href="http://ptaff.ca/routes_du_quebec/"><span xml:lang="fr">&#201;tude de la fr&#233;quence des &#233;v&#233;nements<br />m&#233;t&#233;orologiques pr&#233;curseurs des nids-de-poule <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li class="submenulast"><a href="http://ptaff.ca/sciences/?lang=en_CA">About <strong>Natural Sciences &#38; Mathematics</strong></a></li></ul></li><li id="activeone" class="l1-arts"><a class="doubleline" href="#">Arts &#38;<br />Leisure</a><ul><li class="submenufirst"><a href="http://tuxstickers.ptaff.ca/?lang=en_CA">Get your own Tux sticker!</a></li><li><a href="http://ptaff.ca/hexil/"><span xml:lang="fr">Le livre d'Hexil <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/midi/?lang=en_CA">Tympanum Indulgences</a></li><li><a href="http://ptaff.ca/radio_montreal/?lang=en_CA">Montreal radio station list</a></li><li><a href="http://ptaff.ca/theatre_montreal/?lang=en_CA">Montreal theatre list</a></li><li><a href="http://ptaff.ca/bridge/encheres/?lang=en_CA">Bridge, bidding guide</a></li><li><a href="http://ptaff.ca/bridge/duplicata/?lang=en_CA">Bridge, duplicate scoring tables</a></li><li><a href="http://ptaff.ca/bridge/annexe/?lang=en_CA"><span xml:lang="fr">Bridge, tables de pointage robre <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/99/"><span xml:lang="fr">Les r&#232;glements du 99 <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/99/essai/"><span xml:lang="fr">Essai sur le 99 <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li class="submenulast"><a href="http://ptaff.ca/arts/?lang=en_CA" rel="tag">About <strong>Arts &#38; Leisure</strong></a></li></ul></li><li class="l1-litterature"><a class="doubleline" href="#">Litterature<br />&#38; Rhetoric</a><ul><li class="submenufirst"><a href="http://ptaff.ca/titane/"><span xml:lang="fr">Titane&#160;: &#233;l&#233;ment 22, Premi&#232;re partie: la fracture <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/titane2/"><span xml:lang="fr">Titane&#160;: &#233;l&#233;ment 22, Deuxi&#232;me partie: les </span>gamblers<span xml:lang="fr"> <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/titane3/"><span xml:lang="fr">Titane&#160;: &#233;l&#233;ment 22, Troisi&#232;me partie: les deux tours <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/titane4/"><span xml:lang="fr">Titane&#160;: &#233;l&#233;ment 22, Quatri&#232;me partie: &#233;pilogue <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/gaston/"><span xml:lang="fr">Gaston Tremblay, missionnaire <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/ptafflist/">ptafflist archives <span xml:lang="fr"><abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/ptaffgnu/">ptaffgnu archives <span xml:lang="fr"><abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/blogue/">Blog :: Hors des lieux communs <span xml:lang="fr"><abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li class="submenulast"><a href="http://ptaff.ca/litterature/?lang=en_CA">About <strong>Litterature &#38; Rhetoric</strong></a></li></ul></li><li class="l1-histoire"><a class="doubleline" href="#">History &#38;<br />Geography</a><ul><li class="submenufirst"><a href="http://ptaff.ca/soleil/?lang=en_CA">Soleil</a></li><li><a href="http://ptaff.ca/al-shifa/?lang=en_CA">The Al-Shifa pharmaceutical factory</a></li><li><a href="http://ptaff.ca/feux/"><span xml:lang="fr">Perspective sur les feux d'artifice de Montr&#233;al <abbr title="Fran&#231;ais" class="lg">[Fr]</abbr></span></a></li><li><a href="http://ptaff.ca/continents/?lang=en_CA">Top-Level Domains by Continent</a></li><li class="submenulast"><a href="http://ptaff.ca/histoire_et_geographie/?lang=en_CA">About <strong>History &#38; Geography</strong></a></li></ul></li></ul></form>
+
+<!--
+<rdf:RDF xmlns:cc="http://web.resource.org/cc/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:geo="http://geotags.com/geo/"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+	<cc:Work rdf:about="http://ptaff.ca/bridge/encheres/?lang=en_CA">
+		<cc:license rdf:resource="http://www.gnu.org/copyleft/fdl.html" />
+		<dc:creator>
+			<foaf:Person>
+				<foaf:name>Patrice Levesque</foaf:name>
+				<rdfs:seeAlso rdf:resource="http://ptaff.ca/wayne/foaf.rdf" />
+			</foaf:Person>
+		</dc:creator>
+		<dc:date xsi:type="dcterms:W3CDTF">2002</dc:date>
+		<dc:description>Scoring tables, bidding system and memory cards for the game of bridge.</dc:description>
+		<dc:format xsi:type="dcterms:IMT">application/xhtml+xml</dc:format>
+		<dc:identifier xsi:type="dcterms:URI">http://ptaff.ca/bridge/encheres/?lang=en_CA</dc:identifier>
+		<dc:language xsi:type="dcterms:RFC3066">en</dc:language>
+		<dc:publisher rdf:resource="http://ptaff.ca/manifeste/" />
+		<dc:rights rdf:resource="http://www.gnu.org/copyleft/fdl.html" />
+		<dc:rightsholder>Patrice Levesque</dc:rightsholder>
+		<dc:title>Bridge, bidding guide</dc:title>
+		<dc:type>Text</dc:type>
+		<dcterms:conformsTo rdf:resource="http://www.w3.org/TR/CSS21/" />
+		<dcterms:conformsTo rdf:resource="http://www.w3.org/TR/xhtml11/" />
+		<dcterms:conformsTo rdf:resource="http://www.w3.org/TR/WCAG10/" />
+		<dcterms:created xsi:type="dcterms:W3CDTF">2002</dcterms:created>
+		<dcterms:datecopyrighted xsi:type="dcterms:W3CDTF">2002</dcterms:datecopyrighted>
+		<dcterms:modified xsi:type="dcterms:W3CDTF">2013-04-23</dcterms:modified>
+		<geo:placename>Villeray, Montreal</geo:placename>
+		<geo:position>45.5505; -73.6133</geo:position>
+		<geo:region>CA-QC</geo:region>
+	</cc:Work>
+	<cc:License rdf:about="http://www.gnu.org/copyleft/fdl.html">
+		<cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+		<cc:permits rdf:resource="http://web.resource.org/cc/Distribution" />
+		<cc:permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+		<cc:requires rdf:resource="http://web.resource.org/cc/Notice" />
+		<cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+		<cc:requires rdf:resource="http://web.resource.org/cc/SourceCode" />
+	</cc:License>
+</rdf:RDF>
+-->
+<!--
+set loop
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:35.0) Gecko/20100101 Firefox/35.0
+text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+application/xhtml+xml
+LANG:en_CA
+LANGUAGE:en_CA
+-->
+	</body>
+</html>

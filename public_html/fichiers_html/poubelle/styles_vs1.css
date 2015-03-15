@@ -1,0 +1,121 @@
+﻿/* <!-- Document -->*/
+ 
+.wiket html {
+margin: 0;
+padding: 0;
+}
+.wiket commentaire {
+margin: 50px;
+font-family: Verdana, sans-serif; 
+font-size: 150%;
+font-style:italic;
+}
+
+.wiket body
+{
+background-color:#F5F6CE; 
+font-family: Verdana, sans-serif; 
+font-size: 100%;
+}
+.wiket header
+{
+background-color:#F5E6CE; 
+ font-size: 100%; 
+ color: Blue; 
+ padding-left: 20px;
+}
+.wiket footer
+{
+background-color:#F5E6CE; 
+ font-size: 100%; 
+ color: Blue; 
+ padding-left: 20px;
+}
+.wiket h1 
+{
+ width:500px;
+ height:50px;
+ background-color:#6495ed;
+ font-size: 200%; 
+ color: navy; 
+ text-align: center;
+ border:2px solid;
+ border-radius:25px;
+ box-shadow: 10px 10px 5px #888888;
+ hanging-punctuation: allow-end;
+ max-height:50px;   
+}
+.wiket h2 
+{
+ width:500px;
+ height:30px;
+ background-color:#F5E6CE; 
+ font-size: 150%; 
+ color: Blue; 
+ padding-left: 30px;
+ text-align: left;
+}
+.wiket h3 
+{
+	width:500px;
+ height:30px;
+ background-color:Aquamarine; 
+ font-size: 120%; 
+ color: Black; 
+ padding-left: 40px;
+ text-align: left;
+}
+.wiket h4 
+{
+	width:500px;
+ height:30px;
+ background-color:AntiqueWhite; 
+ font-size: 100%; 
+ color: Blue; 
+ padding-left: 50px;
+ text-align: left;
+}
+.wiket h5 
+{
+	width:500px;
+ height:30px;
+ background-color:#F5F6CE; 
+ font-size: 80%; 
+ color: Black; 
+ padding-left: 60px;
+ text-align: left;
+}
+.wiket p
+{ background-color:#6495ed;
+ font-size: 100%; 
+ color: navy; 
+ text-align: center;
+ border:1px solid;
+ border-radius:25px;
+ box-shadow: 10px 10px 5px #888888;
+ hanging-punctuation: allow-end;
+ max-height:50px;  
+ } 
+
+.wiket ul,li,td {
+ color: black; 
+ }
+.wiket a:link {
+	margin: 100px 0 0 0;
+	color: green;
+	text-decoration: underline;
+	padding-left: 50px;
+}
+.wiket a:visited {
+ color: gray;
+ }
+.wiket a:hover {
+ color: red;
+ text-decoration: none;
+}
+.wiket a:active, a:focus {
+ color: red;
+}
+.wiket sep{padding-left: 30px;
+}
+

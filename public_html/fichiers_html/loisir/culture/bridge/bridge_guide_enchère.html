@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/ptaff.ca/commonprint.cssphp" type="text/css" media="print" title="Style classique"?>
+<?xml-stylesheet href="http://ptaff.ca/bridge/encheres/index.cssphp" type="text/css" media="screen" title="Style classique"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+	<head profile="http://dublincore.org/documents/dcq-html/">
+		<title>Bridge, guide d'ench&#232;res</title>
+		<meta http-equiv="Content-Language"    content="fr" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type"  content="text/css" />
+		<meta http-equiv="Content-Type"        content="application/xhtml+xml; charset=UTF-8" />
+		<meta http-equiv="PICS-Label"          content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://ptaff.ca/" r (nz 1 vz 1 +lz 1 oz 1 cz 1) gen true for "http://www.ptaff.ca/" r (nz 1 vz 1 lz 1 oz 1 cz 1) gen true for "http://tuxstickers.ptaff.ca/" r (nz 1 vz 1 lz 1 oz 1 cz 1) gen true for "http://tuxstickers.ptaff.ca/" r (nz 1 vz 1 lz 1 oz 1 cz 1) gen true for "http://purl.org/DC/elements/1.0/" r (nz 1 vz 1 lz 1 oz 1 cz 1) gen true for "http://purl.org/dc/terms/" r (nz 1 vz 1 lz 1 oz 1 cz 1) gen true for "http://geotags.com/geo/" r (nz 1 vz 1 lz 1 oz 1 cz 1))' />
+		<meta http-equiv="X-UA-Compatible"     content="IE=EmulateIE7" />
+		<meta name="DC.Creator"                                         content="Patrice Levesque" />
+		<meta name="DC.Date"                   scheme="DCTERMS.W3CDTF"  content="2002" />
+		<meta name="DC.Date.DateCopyrighted"   scheme="DCTERMS.W3CDTF"  content="2002" />
+		<meta name="DC.Description"                                     content="Tables de pointage, syst&#232;me d'ench&#232;res et aide-m&#233;moire pour le jeu de bridge." />
+		<meta name="DC.Format"                 scheme="IMT"             content="application/xhtml+xml" />
+		<meta name="DC.Identifier"             scheme="DCTERMS.URI"     content="http://ptaff.ca/bridge/encheres/?lang=fr_CA" />
+		<meta name="DC.Language"               scheme="DCTERMS.RFC3066" content="fr" />
+		<meta name="DC.Publisher"                                       content="ptaff.ca" />
+		<meta name="DC.Rights"                 scheme="DCTERMS.URI"     content="http://www.gnu.org/copyleft/fdl.html" />
+		<meta name="DC.RightsHolder"                                    content="Patrice Levesque" />
+		<meta name="DC.Subject"                                         content="Arts &#38; Loisirs; Art du spectacle, loisirs et sports, jeux; Jeux de hasard; Jeux de cartes" />
+		<meta name="DC.Subject.Classification" scheme="DDC"             content="795.4" />
+		<meta name="DC.Title"                                           content="Bridge, guide d'ench&#232;res" />
+		<meta name="DC.Type"                   scheme="DCMIType"        content="Text" />
+		<meta name="DCTERMS.conformsTo"        scheme="DCTERMS.URI"     content="http://www.w3.org/TR/CSS21/" />
+		<meta name="DCTERMS.conformsTo"        scheme="DCTERMS.URI"     content="http://www.w3.org/TR/xhtml11/" />
+		<meta name="DCTERMS.conformsTo"        scheme="DCTERMS.URI"     content="http://www.w3.org/TR/WCAG10/" />
+		<meta name="DCTERMS.created"           scheme="DCTERMS.W3CDTF"  content="2002" />
+		<meta name="DCTERMS.modified"          scheme="DCTERMS.W3CDTF"  content="2013-04-23" />
+		<meta name="Description"                                        content="Tables de pointage, syst&#232;me d'ench&#232;res et aide-m&#233;moire pour le jeu de bridge." />
+		<meta name="geo.placename"                                      content="Villeray, Montreal" />
+		<meta name="geo.position"              scheme="WGS84"           content="45.5505; -73.6133" />
+		<meta name="geo.region"                scheme="ISO3166"         content="CA-QC" />
+		<meta name="ICBM"                      scheme="WGS84"           content="45.5505, -73.6133" />
+		<link rel="alternate"      type="application/xhtml+xml" href=".?lang=en_CA" title="English version" hreflang="en" xml:lang="en" />
+		<link rel="Author"         type="application/xhtml+xml" href="/wayne/" title="Patrice Levesque" />
+		<link rel="Copyright"      type="application/xhtml+xml" href="#copyright" title="Copyright" />
+		<link rel="Help"           type="application/xhtml+xml" href="http://ptaff.ca/manifeste/" title="Aide" />
+		<link rel="Home"           type="application/xhtml+xml" href="http://ptaff.ca/" title="Accueil" />
+		<link rel="icon"           type="image/ico"             href="favicon.ico" />
+		<link rel="license"        type="text/html"             href="http://www.gnu.org/copyleft/fdl.html" title="Licence" />
+		<link rel="meta"           type="application/rdf+xml"   href="/bridge/encheres/?lang=fr_CA&#38;cc=1" title="Creative Commons" />
+		<link rel="meta"           type="application/rdf+xml"   href="http://ptaff.ca/labels.rdf" title="ICRA labels" />
+		<link rel="Next"           type="application/xhtml+xml" href="http://ptaff.ca/bridge/duplicata/" title="Bridge, tables de pointage duplicata" />
+		<link rel="P3Pv1"          type="text/xml"              href="/w3c/p3p.xml" title="Politique de confidentialit&#233;" />
+		<link rel="Parent"         type="application/xhtml+xml" href="http://ptaff.ca/" />
+		<link rel="Previous"       type="application/xhtml+xml" href="http://ptaff.ca/theatre_montreal/" title="Liste des th&#233;&#226;tres de Montr&#233;al" />
+		<link rel="schema.DC"      type="text/html"             href="http://purl.org/DC/elements/1.0/" />
+		<link rel="schema.DCTERMS" type="text/html"             href="http://purl.org/dc/terms/" />
+		<link rel="shortcut icon"  type="image/ico"             href="/favicon.ico" />
+		<link rel="Top"            type="application/xhtml+xml" href="http://ptaff.ca/" title="Accueil" />
+		<link rel="Up"             type="application/xhtml+xml" href="http://ptaff.ca/" />
+		<script type="text/javascript" src="/ptaff.ca/scripts.js"></script>
+	</head>
+<body>
+  <div class="prepage">
+    <div class="page">
+    <div>
+    <div class="titleboxlang"><ul><li class="active"><img src="/images/flags/fr_CA.png" alt="Fran&#231;ais" width="14" height="14" /></li><li xml:lang="en"><a href="/bridge/encheres/?lang=en_CA" title="English" hreflang="en"><img src="/images/flags/en_CA.png" alt="English" width="14" height="14" /></a></li></ul></div>      <h1>Guide d'ench&#232;res de bridge<br /><span style="font-size: smaller;">Inspir&#233; du Standard Am&#233;ricain</span></h1>
+        </div>
+        <div class="textintro">
+      <p>Ces tableaux de base se r&#233;v&#232;lent de bons aide-m&#233;moire.  Il faut cependant garder en t&#234;te que le jugement du contexte prime sur toute ench&#232;re, car toute grille demeurera toujours incompl&#232;te - par exemple, celles-ci ne tiennent pas compte des interventions adverses.</p>
+      <p>Dans chacun des tableaux, les ench&#232;res sont class&#233;es en ordre d&#233;croissant de pr&#233;f&#233;rence, en cas d'h&#233;sitation.</p>
+      <p>Les points demand&#233;s dans ce guide sont compt&#233;s traditionnellement (as&#160;=&#160;4, roi&#160;=&#160;3, dame&#160;=&#160;2, valet&#160;=&#160;1).  Ajuster au jugement.</p>
+        </div>
+
+        <table class="bridgebid" border="0" cellspacing="0" cellpadding="0">
+      <tr><th colspan="2" class="mycaption"><h2>Ouvertures</h2></th></tr>
+        <tr>
+      <th><a href="#b3sa"><span class="bid">3SA</span></a></th>
+      <td>24+ points, main carr&#233;e</td>
+        </tr>
+        <tr>
+      <th><a href="#b2tr"><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></a></th>
+      <td>22+ points, au moins une couleur 5<sup>e</sup>+, forcing pour un tour<br /><small>Au prochain tour, gager cette couleur</small></td>
+        </tr>
+        <tr>
+      <th><a href="#b2sa"><span class="bid">2SA</span></a></th>
+      <td>21-23 points, main carr&#233;e</td>
+        </tr>
+        <tr>
+      <th><a href="#b1sa"><span class="bid">1SA</span></a></th>
+      <td>16-18 points, main carr&#233;e</td>
+        </tr>
+        <tr>
+      <th><a href="#b1pi"><span class="bid">1<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></a></th>
+      <td>13-21 points, 5+ piques<br /><small>Gager la plus longue majeure; si elles sont &#233;gales, avec 16+ points gager <span class="bid">1<img src="../yco.png" width="9" height="9" alt="Co" /></span> sinon <span class="bid">1<img src="../ypi.png" width="9" height="9" alt="Pi" /></span></small></td>
+        </tr>
+        <tr>
+      <th><a href="#b1co"><span class="bid">1<img src="../xco.png" width="12" height="12" alt="Co" /></span></a></th>
+      <td>13-21 points, 5+ c<span class="lig">o</span>eurs<br /><small>Gager la plus longue majeure; si elles sont &#233;gales, avec 16+ points gager <span class="bid">1<img src="../yco.png" width="9" height="9" alt="Co" /></span> sinon <span class="bid">1<img src="../ypi.png" width="9" height="9" alt="Pi" /></span></small></td>
+        </tr>
+        <tr>
+      <th><a href="#b1k"><span class="bid">1<img src="../xk.png" width="12" height="12" alt="K" /></span></a></th>
+      <td>13-21 points, 3+ carreaux<br /><small>Gager la plus longue mineure; en cas d'&#233;galit&#233;, gager <span class="bid">1<img src="../ytr.png" width="9" height="9" alt="Tr" /></span> avec une longueur de 3, sinon <span class="bid">1<img src="../yk.png" width="9" height="9" alt="K" /></span></small></td>
+        </tr>
+        <tr>
+      <th><a href="#b1tr"><span class="bid">1<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></a></th>
+      <td>13-21 points, 3+ tr&#232;fles<br /><small>Gager la plus longue mineure; en cas d'&#233;galit&#233;, gager <span class="bid">1<img src="../ytr.png" width="9" height="9" alt="Tr" /></span> avec une longueur de 3, sinon <span class="bid">1<img src="../yk.png" width="9" height="9" alt="K" /></span></small></td>
+        </tr>
+        <tr>
+      <th><a href="#b3col"><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="Tr" /></span>, <span class="bid">3<img src="../xk.png" width="12" height="12" alt="K" /></span>, <span class="bid">3<img src="../xco.png" width="12" height="12" alt="Co" /></span>, <span class="bid">3<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></a></th>
+      <td>6-12 points, 7+ cartes dans cette couleur<br /><small>Cette couleur doit comporter 2 des 3 honneurs ou 3 des 5 honneurs</small></td>
+        </tr>	
+        <tr>
+      <th><a href="#b2co"><span class="bid">2<img src="../xco.png" width="12" height="12" alt="Co" /></span></a></th>
+      <td>6-12 points, 6 c<span class="lig">o</span>eurs<br /><small>Cette couleur doit comporter 2 des 3 honneurs ou 3 des 5 honneurs</small></td>
+        </tr>
+        <tr>
+      <th><a href="#b2pi"><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></a></th>
+      <td>6-12 points, 6 piques<br /><small>Cette couleur doit comporter 2 des 3 honneurs ou 3 des 5 honneurs</small></td>
+        </tr>
+        <tr>
+      <th><a href="#b2k"><span class="bid">2<img src="../xk.png" width="12" height="12" alt="K" /></span></a></th>
+      <td>6-12 points, 6 carreaux<br /><small>Cette couleur doit comporter 2 des 3 honneurs ou 3 des 5 honneurs</small></td>
+        </tr>
+        </table>
+
+		<table class="bridgebid call2" border="0" cellspacing="0" cellpadding="0" id="b1tr">
+  <tr><th colspan="2" class="mycaption"><h3>R&#233;ponses &#224; {<span class="bid">1<img src="../xtr.png" width="12" height="12" alt="Tr" /></span>}</h3></th></tr>
+
+						<tr>
+          <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+          <td>16+ points, tr&#232;s beaux carreaux</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+          <td>16+ points, tr&#232;s beaux c<span class="lig">o</span>eurs</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+          <td>16+ points, tr&#232;s beaux piques</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></th>
+          <td>10+ points, 5+ tr&#232;fles</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2SA</span></th>
+          <td>10+ points, main carr&#233;e, peut-&#234;tre un fit</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+          <td>6+ points, 4+ carreaux</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+          <td>6+ points, 4+ c<span class="lig">o</span>eurs</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+          <td>6+ points, 4+ piques</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></th>
+          <td>6-9 points, 5+ tr&#232;fles</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1SA</span></th>
+          <td>6-9 points, moins de 5 tr&#232;fles</td>
+						</tr>
+		</table>				
+		<table class="bridgebid call2" border="0" cellspacing="0" cellpadding="0" id="b1k">
+  <tr><th colspan="2" class="mycaption"><h3>R&#233;ponses &#224; {<span class="bid">1<img src="../xk.png" width="12" height="12" alt="K" /></span>}</h3></th></tr>
+
+						<tr>
+          <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+          <td>16+ points, tr&#232;s beaux c<span class="lig">o</span>eurs</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+          <td>16+ points, tr&#232;s beaux piques</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></th>
+          <td>16+ points, tr&#232;s beaux tr&#232;fles</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+          <td>10+ points, 5+ carreaux</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2SA</span></th>
+          <td>10+ points, main carr&#233;e, peut-&#234;tre un fit</td>
+						</tr>
+            <tr>    
+          <th><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></th>
+          <td>10+ points</td>
+						</tr>   
+						<tr>    
+          <th><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="Tr" /></span> et appui au tour suivant</th>
+          <td>10-11 points, 5+ carreaux</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+          <td>6+ points, 4+ c<span class="lig">o</span>eurs</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+          <td>6+ points, 4+ piques</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+          <td>6-9 points, 5+ carreaux</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1SA</span></th>
+          <td>6-9 points, moins de 5 carreaux</td>
+						</tr>
+		</table>				
+		<table class="bridgebid call2" border="0" cellspacing="0" cellpadding="0" id="b1co">
+  <tr><th colspan="2" class="mycaption"><h3>R&#233;ponses &#224; {<span class="bid">1<img src="../xco.png" width="12" height="12" alt="Co" /></span>}</h3></th></tr>
+
+						<tr>
+          <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+          <td>16+ points, tr&#232;s beaux piques</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></th>
+          <td>16+ points, tr&#232;s beaux tr&#232;fles</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+          <td>16+ points, tr&#232;s beaux carreaux</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+          <td>10+ points, 3+ c<span class="lig">o</span>eurs</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2SA</span></th>
+          <td>10+ points, main carr&#233;e, peut-&#234;tre un fit</td>
+						</tr>
+            <tr>    
+          <th><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></th>
+          <td>10+ points</td>
+						</tr>   
+						<tr>    
+          <th><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="Tr" /></span> et appui au tour suivant</th>
+          <td>10-11 points, 3+ c<span class="lig">o</span>eurs</td>
+						</tr>
+            <tr>    
+          <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+          <td>10+ points</td>
+						</tr>   
+						<tr>    
+          <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="K" /></span> et appui au tour suivant</th>
+          <td>10-11 points, 3+ c<span class="lig">o</span>eurs</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+          <td>6+ points, 4+ piques</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+          <td>6-9 points, 3+ c<span class="lig">o</span>eurs</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1SA</span></th>
+          <td>6-9 points, moins de 3 c<span class="lig">o</span>eurs</td>
+						</tr>
+		</table>				
+		<table class="bridgebid call2" border="0" cellspacing="0" cellpadding="0" id="b1pi">
+  <tr><th colspan="2" class="mycaption"><h3>R&#233;ponses &#224; {<span class="bid">1<img src="../xpi.png" width="12" height="12" alt="Pi" /></span>}</h3></th></tr>
+
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></th>
+          <td>16+ points, tr&#232;s beaux tr&#232;fles</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+          <td>16+ points, tr&#232;s beaux carreaux</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+          <td>16+ points, tr&#232;s beaux c<span class="lig">o</span>eurs</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+          <td>10+ points, 3+ piques</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2SA</span></th>
+          <td>10+ points, main carr&#233;e, peut-&#234;tre un fit</td>
+						</tr>
+            <tr>    
+          <th><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></th>
+          <td>10+ points</td>
+						</tr>   
+						<tr>    
+          <th><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="Tr" /></span> et appui au tour suivant</th>
+          <td>10-11 points, 3+ piques</td>
+						</tr>
+            <tr>    
+          <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+          <td>10+ points</td>
+						</tr>   
+						<tr>    
+          <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="K" /></span> et appui au tour suivant</th>
+          <td>10-11 points, 3+ piques</td>
+						</tr>
+            <tr>    
+          <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+          <td>10+ points</td>
+						</tr>   
+						<tr>    
+          <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="Co" /></span> et appui au tour suivant</th>
+          <td>10-11 points, 3+ piques</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+          <td>6-9 points, 3+ piques</td>
+						</tr>
+						<tr>
+          <th><span class="bid">1SA</span></th>
+          <td>6-9 points, moins de 3 piques</td>
+						</tr>
+		</table>				
+		<table class="bridgebid call2" border="0" cellpadding="0" cellspacing="0" id="b1sa">
+  <tr><th colspan="2" class="mycaption"><h3>R&#233;ponses &#224; {<span class="bid">1SA</span>}</h3></th></tr>
+						<tr>
+          <th><a href="#b1sa-4tr"><span class="bid">4<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></a></th>
+          <td>16+ points, <em>Gerber</em> (demande d'as)</td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-4sa"><span class="bid">4SA</span></a></th>
+          <td>15-16 points, main carr&#233;e</td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-3pi"><span class="bid">3<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></a></th>
+          <td>9+ points, 5+ piques, forcing</td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-3co"><span class="bid">3<img src="../xco.png" width="12" height="12" alt="Co" /></span></a></th>
+          <td>9+ points, 5+ c<span class="lig">o</span>eurs, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></th>
+          <td>9+ points, 5+ tr&#232;fles, forcing<br /><small>Consid&#233;rer <span class="bid">3SA</span> si le chelem n'est pas &#224; envisager</small></td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+          <td>9+ points, 5+ carreaux, forcing<br /><small>Consid&#233;rer <span class="bid">3SA</span> si le chelem n'est pas &#224; envisager</small></td>
+						</tr>
+						<tr>
+          <th><span class="bid">3SA</span></th>
+          <td>9-14 points, pas de fit en couleur majeure, pour jouer</td>
+						</tr>
+						<tr>
+          <th><span class="bid">4<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+          <td>8+ points, 6+ piques, pour jouer</td>
+						</tr>
+						<tr>
+          <th><span class="bid">4<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+          <td>8+ points, 6+ c<span class="lig">o</span>eurs, pour jouer</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2SA</span></th>
+          <td>7-8 points, main carr&#233;e</td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-2k"><span class="bid">2<img src="../xk.png" width="12" height="12" alt="K" /></span></a></th>
+          <td>6+ points, 5+ c<span class="lig">o</span>eurs, <em>Transfert Jacoby</em></td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-2co"><span class="bid">2<img src="../xco.png" width="12" height="12" alt="Co" /></span></a></th>
+          <td>6+ points, 5+ piques, <em>Transfert Jacoby</em></td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-2tr"><span class="bid">2<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></a></th>
+          <td>6+ points, <em>Stayman</em> (demande de majeure 4<sup>e</sup>)</td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-4k"><span class="bid">4<img src="../xk.png" width="12" height="12" alt="K" /></span></a></th>
+          <td>0+ points, 6+ c<span class="lig">o</span>eurs, <em>Transfert Texas</em></td>
+						</tr>
+						<tr>
+          <th><a href="#b1sa-4co"><span class="bid">4<img src="../xco.png" width="12" height="12" alt="Co" /></span></a></th>
+          <td>0+ points, 6+ piques, <em>Transfert Texas</em></td>
+						</tr>
+		</table>
+    <!-- =================================================================== -->
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-2tr">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">1SA</span>}-{<span class="bid">2<img src="../xtr.png" width="12" height="12" alt="Tr" /></span>} <em>Stayman</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+  <td>4+ c<span class="lig">o</span>eurs</td>
+    </tr>
+    <tr>
+  <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+  <td>4+ piques</td>
+    </tr>
+    <tr>
+  <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+  <td>Ni 4+ piques ni 4+ c<span class="lig">o</span>eurs</td>
+    </tr>
+    </table>
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-2k">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">1SA</span>}-{<span class="bid">2<img src="../xk.png" width="12" height="12" alt="K" /></span>} <em>Transfert Jacoby</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+  <td>Manoeuvre pour garder la main forte cach&#233;e</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-2co">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">1SA</span>}-{<span class="bid">2<img src="../xco.png" width="12" height="12" alt="Co" /></span>} <em>Transfert Jacoby</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+  <td>Manoeuvre pour garder la main forte cach&#233;e</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-3co">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">1SA</span>}-{<span class="bid">3<img src="../xco.png" width="12" height="12" alt="Co" /></span>}</h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+  <td>Fit en c<span class="lig">o</span>eur</td>
+    </tr>
+    <tr>
+  <th><span class="bid">3SA</span></th>
+  <td>Pas de fit en c<span class="lig">o</span>eur</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-3pi">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">1SA</span>}-{<span class="bid">3<img src="../xpi.png" width="12" height="12" alt="Pi" /></span>}</h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+  <td>Fit en pique</td>
+    </tr>
+    <tr>
+  <th><span class="bid">3SA</span></th>
+  <td>Pas de fit en pique</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-4tr">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">1SA</span>}-{<span class="bid">4<img src="../xtr.png" width="12" height="12" alt="Tr" /></span>} <em>Gerber</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+  <td>0 ou 4 as dans la main</td>
+    </tr>
+    <tr>
+  <th><span class="bid">4<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+  <td>1 as dans la main</td>
+    </tr>
+    <tr>
+  <th><span class="bid">4<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+  <td>2 as dans la main</td>
+    </tr>
+    <tr>
+  <th><span class="bid">4SA</span></th>
+  <td>3 as dans la main</td>
+    </tr>
+    </table>
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-4k">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">1SA</span>}-{<span class="bid">4<img src="../xk.png" width="12" height="12" alt="K" /></span>} <em>Transfert Texas</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+  <td>Manoeuvre pour garder la main forte cach&#233;e</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-4co">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">1SA</span>}-{<span class="bid">4<img src="../xco.png" width="12" height="12" alt="Co" /></span>} <em>Transfert Texas</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+  <td>Manoeuvre pour garder la main forte cach&#233;e</td>
+    </tr>
+    </table>
+
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b1sa-4sa">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">1SA</span>}-{<span class="bid">4SA</span>}</h4></th></tr>
+    <tr>
+  <th><span class="bid">6SA</span></th>
+  <td>17-18 points</td>
+    </tr>
+    </table>
+
+		<table class="bridgebid call2" border="0" cellspacing="0" cellpadding="0" id="b2tr">
+  <tr><th colspan="2" class="mycaption"><h3>R&#233;ponses &#224; {<span class="bid">2<img src="../xtr.png" width="12" height="12" alt="Tr" /></span>}</h3></th></tr>
+						<tr>
+          <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+          <td>7+ points, 5+ c<span class="lig">o</span>eurs</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+          <td>7+ points, 5+ piques</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></th>
+          <td>7+ points, 5+ tr&#232;fles</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+          <td>7+ points, 5+ carreaux</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2SA</span></th>
+          <td>8-10 points, main carr&#233;e</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+          <td>Ench&#232;re par d&#233;faut si rien d'autre &#224; gager</td>
+						</tr>
+		</table>
+
+
+		<table class="bridgebid call2" border="0" cellpadding="0" cellspacing="0" id="b2k">
+  <tr><th colspan="2" class="mycaption"><h3>R&#233;ponses &#224; {<span class="bid">2<img src="../xk.png" width="12" height="12" alt="K" /></span>}</h3></th></tr>
+						<tr>
+          <th><span class="bid">2<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+          <td>10+ points, 5+ c<span class="lig">o</span>eurs, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+          <td>10+ points, 5+ piques, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></th>
+          <td>10+ points, 5+ tr&#232;fles, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2SA</span></th>
+          <td>10+ points, invitation &#224; la manche<br /><small>Le d&#233;clarant gagera une nouvelle couleur au niveau de 3 avec un arr&#234;t dans cette couleur ou retournera &#224; la couleur initiale faute de mieux</small></td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="K" /></span>, <span class="bid">3SA</span>, <span class="bid">4<img src="../xco.png" width="12" height="12" alt="Co" /></span>, <span class="bid">4<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+          <td>10+ points, pour jouer</td>
+						</tr>
+		</table>
+		<table class="bridgebid call2" border="0" cellpadding="0" cellspacing="0" id="b2co">
+  <tr><th colspan="2" class="mycaption"><h3>R&#233;ponses &#224; {<span class="bid">2<img src="../xco.png" width="12" height="12" alt="Co" /></span>}</h3></th></tr>
+						<tr>
+          <th><span class="bid">2<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+          <td>10+ points, 5+ piques, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></th>
+          <td>10+ points, 5+ tr&#232;fles, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+          <td>10+ points, 5+ carreaux, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2SA</span></th>
+          <td>10+ points, invitation &#224; la manche<br /><small>Le d&#233;clarant gagera une nouvelle couleur au niveau de 3 avec un arr&#234;t dans cette couleur ou retournera &#224; la couleur initiale faute de mieux</small></td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xco.png" width="12" height="12" alt="Co" /></span>, <span class="bid">3SA</span>, <span class="bid">4<img src="../xco.png" width="12" height="12" alt="Co" /></span>, <span class="bid">4<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+          <td>10+ points, pour jouer</td>
+						</tr>
+		</table>
+		<table class="bridgebid call2" border="0" cellpadding="0" cellspacing="0" id="b2pi">
+  <tr><th colspan="2" class="mycaption"><h3>R&#233;ponses &#224; {<span class="bid">2<img src="../xpi.png" width="12" height="12" alt="Pi" /></span>}</h3></th></tr>
+						<tr>
+          <th><span class="bid">3<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></th>
+          <td>10+ points, 5+ tr&#232;fles, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+          <td>10+ points, 5+ carreaux, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+          <td>10+ points, 5+ c<span class="lig">o</span>eurs, forcing</td>
+						</tr>
+						<tr>
+          <th><span class="bid">2SA</span></th>
+          <td>10+ points, invitation &#224; la manche<br /><small>Le d&#233;clarant gagera une nouvelle couleur au niveau de 3 avec un arr&#234;t dans cette couleur ou retournera &#224; la couleur initiale faute de mieux</small></td>
+						</tr>
+						<tr>
+          <th><span class="bid">3<img src="../xpi.png" width="12" height="12" alt="Pi" /></span>, <span class="bid">3SA</span>, <span class="bid">4<img src="../xco.png" width="12" height="12" alt="Co" /></span>, <span class="bid">4<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+          <td>10+ points, pour jouer</td>
+						</tr>
+		</table>
+
+		<table class="bridgebid call2" border="0" cellpadding="0" cellspacing="0" id="b2sa">
+  <tr><th colspan="2" class="mycaption"><h3>R&#233;ponses &#224; {<span class="bid">2SA</span>}</h3></th></tr>
+						<tr>
+          <th><a href="#b2sa-4tr"><span class="bid">4<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></a></th>
+          <td>10+ points, <em>Gerber</em> (demande d'as)</td>
+						</tr>
+						<tr>
+          <th><a href="#b2sa-4sa"><span class="bid">4SA</span></a></th>
+          <td>10+ points, main carr&#233;e</td>
+						</tr>
+						<tr>
+          <th><a href="#b2sa-3k"><span class="bid">3<img src="../xk.png" width="12" height="12" alt="K" /></span></a></th>
+          <td>0+ points, 5+ c<span class="lig">o</span>eurs, <em>Transfert Texas</em></td>
+						</tr>
+						<tr>
+          <th><a href="#b2sa-3co"><span class="bid">3<img src="../xco.png" width="12" height="12" alt="Co" /></span></a></th>
+          <td>0+ points, 5+ piques, <em>Transfert Texas</em></td>
+						</tr>
+		</table>
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b2sa-3k">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">2SA</span>}-{<span class="bid">3<img src="../xk.png" width="12" height="12" alt="K" /></span>} <em>Transfert Texas</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">3<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+  <td>Manoeuvre pour garder la main forte cach&#233;e</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b2sa-3co">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">2SA</span>}-{<span class="bid">3<img src="../xco.png" width="12" height="12" alt="Co" /></span>} <em>Transfert Texas</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">3<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+  <td>Manoeuvre pour garder la main forte cach&#233;e</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b2sa-4tr">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">2SA</span>}-{<span class="bid">4<img src="../xtr.png" width="12" height="12" alt="Tr" /></span>} <em>Gerber</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">5<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+  <td>0 ou 4 as dans la main</td>
+    </tr>
+    <tr>
+  <th><span class="bid">5<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+  <td>1 as dans la main</td>
+    </tr>
+    <tr>
+  <th><span class="bid">5<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+  <td>2 as dans la main</td>
+    </tr>
+    <tr>
+  <th><span class="bid">5SA</span></th>
+  <td>3 as dans la main</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b2sa-4sa">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">2SA</span>}-{<span class="bid">4SA</span>}</h4></th></tr>
+    <tr>
+  <th><span class="bid">6SA</span></th>
+  <td>22-23 points</td>
+    </tr>
+    </table>
+
+		<table class="bridgebid call2" border="0" cellpadding="0" cellspacing="0" id="b3col">
+  <tr><th colspan="2" class="mycaption"><h3>R&#233;ponses &#224; {<span class="bid">3<img src="../xtr.png" width="12" height="12" alt="Tr" /></span>, <span class="bid">3<img src="../xk.png" width="12" height="12" alt="K" /></span>, <span class="bid">3<img src="../xco.png" width="12" height="12" alt="Co" /></span>, <span class="bid">3<img src="../xpi.png" width="12" height="12" alt="Pi" /></span>}</h3></th></tr>
+						<tr>
+          <th><span class="bid">Jugement</span></th>
+          <td>15+ points</td>
+						</tr>
+		</table>
+
+    <table class="bridgebid call2" border="0" cellpadding="0" cellspacing="0" id="b3sa">
+  <tr><th colspan="2" class="mycaption"><h3>R&#233;ponses &#224; {<span class="bid">3SA</span>}</h3></th></tr>
+    <tr>
+  <th><a href="#b3sa-4sa"><span class="bid">4SA</span></a></th>
+  <td>8+ points, <em>Blackwood</em> (demande d'as)</td>
+    </tr>
+    <tr>
+  <th><a href="#b3sa-4k"><span class="bid">4<img src="../xk.png" width="12" height="12" alt="K" /></span></a></th>
+  <td>0+ points, 5+ c<span class="lig">o</span>eurs, <em>Transfert Texas</em></td>
+    </tr>
+    <tr>
+  <th><a href="#b3sa-4co"><span class="bid">4<img src="../xco.png" width="12" height="12" alt="Co" /></span></a></th>
+  <td>0+ points, 5+ piques, <em>Transfert Texas</em></td>
+    </tr>
+    <tr>
+  <th><a href="#b3sa-4tr"><span class="bid">4<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></a></th>
+  <td>0+ points, <em>Stayman</em> (demande de majeure 4<sup>e</sup>)</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b3sa-4tr">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">3SA</span>}-{<span class="bid">4<img src="../xtr.png" width="12" height="12" alt="Tr" /></span>} <em>Stayman</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+  <td>4+ c<span class="lig">o</span>eurs</td>
+    </tr>
+    <tr>
+  <th><span class="bid">4<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+  <td>4+ piques</td>
+    </tr>
+    <tr>
+  <th><span class="bid">4<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+  <td>Ni 4+ piques ni 4+ c<span class="lig">o</span>eurs</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b3sa-4k">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">3SA</span>}-{<span class="bid">4<img src="../xk.png" width="12" height="12" alt="K" /></span>} <em>Transfert Texas</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+  <td>Manoeuvre pour garder la main forte cach&#233;e</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b3sa-4co">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">3SA</span>}-{<span class="bid">4<img src="../xco.png" width="12" height="12" alt="Co" /></span>} <em>Transfert Texas</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">4<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+  <td>Manoeuvre pour garder la main forte cach&#233;e</td>
+    </tr>
+    </table>
+
+    <table class="bridgebid call3" border="0" cellpadding="0" cellspacing="0" id="b3sa-4sa">
+  <tr><th colspan="2" class="mycaption"><h4>R&#233;ponses &#224; {<span class="bid">3SA</span>}-{<span class="bid">4SA</span>} <em>Blackwood</em></h4></th></tr>
+    <tr>
+  <th><span class="bid">5<img src="../xtr.png" width="12" height="12" alt="Tr" /></span></th>
+  <td>0 ou 4 as dans la main</td>
+    </tr>
+    <tr>
+  <th><span class="bid">5<img src="../xk.png" width="12" height="12" alt="K" /></span></th>
+  <td>1 as dans la main</td>
+    </tr>
+    <tr>
+  <th><span class="bid">5<img src="../xco.png" width="12" height="12" alt="Co" /></span></th>
+  <td>2 as dans la main</td>
+    </tr>
+    <tr>
+  <th><span class="bid">5<img src="../xpi.png" width="12" height="12" alt="Pi" /></span></th>
+  <td>3 as dans la main</td>
+    </tr>
+    </table>
+
+
+
+
+
+
+
+    			<div class="ptaffcafooter">
+				<hr />
+				<div class="dates">
+<div class="vevent"><p class="description">Bridge, guide d'ench&#232;res</p><span class="summary">Cr&#233;ation</span>&#160;: <abbr class="dtstart" title="2002">2002</abbr><div class="adr"><span class="locality">Villeray</span><div class="geo"><abbr class="latitude" title="45.5505">N 45&#176; 33&#8242;</abbr> <abbr class="longitude" title="-73.6133">W 73&#176; 36&#8242;</abbr></div></div></div>
+<div class="vevent">
+<p class="description">Bridge, guide d'ench&#232;res</p><span class="summary">Derni&#232;re mise &#224; jour</span>&#160;: <abbr class="dtstart" title="2013-04-23">23 avril 2013</abbr><span class="filler">, </span><div class="adr"><span class="locality">Villeray</span>, <div class="geo"><abbr class="latitude" title="45.5505">N 45&#176; 33&#8242;</abbr> <abbr class="longitude" title="-73.6133">W 73&#176; 36&#8242;</abbr></div></div></div>
+</div>
+				<hr />
+				<ul class="bottomlinks">
+					<li class="firstli"><a accesskey="1" title="Touche mn&#233;monique: 1" rel="Home" href="/">Accueil</a></li>
+					<li><a accesskey="3" href="/plan/" title="Touche mn&#233;monique: 3">Plan&#160;du&#160;site</a></li>
+					<li><a accesskey="9" rel="Author" href="/sitemail/?to=ptaff" title="Touche mn&#233;monique: 9">Contactez-nous</a></li>
+					<li><a href="/manifeste/#confidentialite">Confidentialit&#233;</a></li>
+					<li><a accesskey="0" href="/accessibilite/" title="Touche mn&#233;monique: 0">Accessibilit&#233;</a></li>
+					<li class="lastli"><a accesskey="8" rel="Help" href="/manifeste/" title="Touche mn&#233;monique: 8">&#192;&#160;propos&#160;de&#160;ptaff.ca</a></li>
+				</ul>
+				<ul class="valid">
+					<li><span class="vbutton"><a href="http://jigsaw.w3.org/css-validator/check/referer" hreflang="en" title="Conformit&#233; CSS"><span class="yleft"><acronym xml:lang="en" title="World Wide Web Consortium"><span class="w3">W3</span><span class="c">C</span></acronym> </span><span class="yright"><span xml:lang="en" title="Cascading Style Sheets" class="rec">CSS</span><span class="ver">2.1</span></span></a></span></li>
+					<li><span class="vbutton"><a href="http://validator.w3.org/check/referer" hreflang="en" title="Conformit&#233; XHTML 1.1"><span class="yleft"><acronym xml:lang="en" title="World Wide Web Consortium"><span class="w3">W3</span><span class="c">C</span></acronym> </span><span class="yright"><span xml:lang="en" title="eXtensible HyperText Markup Language" class="rec">XHTML</span><span class="ver">1.1</span></span></a></span></li>
+					<li>
+						<span class="vbutton">
+							<a href="http://www.w3.org/WAI/WCAG1AAA-Conformance" hreflang="en" title="Conformit&#233; niveau triple-A W3C-WAI">
+								<span class="yleft"><acronym xml:lang="en" title="World Wide Web Consortium"><span class="w3">W3</span><span class="c">C</span></acronym> </span><span class="yright"><span xml:lang="en" title="Web Accessibility Initiative" class="rec">WAI</span>-<span class="ver">AAA</span></span>
+							</a>
+						</span>
+					</li>
+				</ul>
+				<p class="copyright" id="copyright">Copyright &#169; 2002 <a href="/wayne/">Patrice Levesque</a>. Permission est accord&#233;e de copier, distribuer et/ou modifier ce document selon les termes de la Licence de Documentation Libre <acronym title="GNU's Not Unix">GNU</acronym> (<!--Creative Commons License--><a rel="license" href="http://www.gnu.org/copyleft/fdl.html" hreflang="en"><acronym title="GNU's Not Unix">GNU</acronym> Free Documentation License</a><!--/Creative Commons License-->), version 1.1 ou toute version ult&#233;rieure publi&#233;e par la <a href="http://fsf.org/" hreflang="en" xml:lang="en">Free Software Foundation</a>.</p>
+			</div>
+      </div>
+      </div>
+    <form id="topmenu" action="#">
+<ul class="menubar" id="mymenu">
+<li class="homebutton"><div class="specialleaf"><a href="http://ptaff.ca/"><img src="http://ptaff.ca/images/ptaff.png" width="16" height="16" alt="" />Accueil</a></div></li><li class="l1-generalites"><a class="doubleline" href="#">Informatique<br />&#38; G&#233;n&#233;ralit&#233;s</a><ul><li class="submenufirst"><a href="http://ptaff.ca/olpc_militaire/">Du potentiel militaire du <span xml:lang="en"><acronym title="One Laptop Per Child">OLPC</acronym></span></a></li><li><a href="http://ptaff.ca/crepyscule/">crepyscule</a></li><li><a href="http://ptaff.ca/midcat/">midcat</a></li><li><a href="http://ptaff.ca/statusable/">statusable</a></li><li><a href="http://ptaff.ca/table4chart/">Table4Chart</a></li><li><a href="http://ptaff.ca/xhtmail/">xhtmail</a></li><li><a href="http://ptaff.ca/ie/">Du non-choix d'Internet Explorer</a></li><li><a href="http://ptaff.ca/smart/"><span xml:lang="en">Smart Bookmarks</span> et <span xml:lang="en">Bookmarklets</span></a></li><li><a href="http://ptaff.ca/ogg/">La page francophone du format Ogg Vorbis</a></li><li><a href="http://ptaff.ca/png/">La page francophone du format <span xml:lang="en"><acronym title="Portable Network Graphics">PNG</acronym></span></a></li><li><a href="http://ptaff.ca/svg/">La page francophone du format <acronym title="Scalable Vector Graphics" xml:lang="en">SVG</acronym></a></li><li><a href="http://ptaff.ca/xhtml/"><acronym xml:lang="en" title="eXtensible HyperText Markup Language">XHTML</acronym> :: Comment r&#233;ussir</a></li><li><a href="http://ptaff.ca/bruitdefond/">Projet &#171;&#160;bruit de fond&#160;&#187;</a></li><li><a href="http://ptaff.ca/typologie_blogues_quebecois/">Typologie de la blogosph&#232;re qu&#233;b&#233;coise</a></li><li class="submenulast"><a href="http://ptaff.ca/informatique/">&#192; propos de <strong>Informatique &#38; G&#233;n&#233;ralit&#233;s</strong></a></li></ul></li><li class="l1-philosophie"><a class="doubleline" href="#">Philosophie<br />&#38; Psychologie</a><ul><li class="submenufirst"><a href="http://ptaff.ca/premierdegre/">Manifeste du 1<sup>er</sup> degr&#233;</a></li><li><a href="http://ptaff.ca/campino/">Campino</a></li><li class="submenulast"><a href="http://ptaff.ca/philosophie/">&#192; propos de <strong>Philosophie &#38; Psychologie</strong></a></li></ul></li><li class="l1-ssociales"><a class="doubleline" href="#">Sciences<br />sociales</a><ul><li class="submenufirst"><a href="http://ptaff.ca/vote_electronique_2005/">Vote &#233;lectronique&#160;: qui a le droit de savoir?</a></li><li class="submenulast"><a href="http://ptaff.ca/sciences_sociales/">&#192; propos de <strong>Sciences sociales</strong></a></li></ul></li><li class="l1-langage"><a  href="#">Langage</a><ul><li class="submenufirst"><a href="http://ptaff.ca/phonolettre/">Num&#233;rophraseur</a></li><li><a href="http://ptaff.ca/laid/">La laideur des mots</a></li><li><a href="http://ptaff.ca/liendex/">Liendex</a></li><li class="submenulast"><a href="http://ptaff.ca/langage/">&#192; propos de <strong>Langage</strong></a></li></ul></li><li class="l1-sciences"><a class="doubleline" href="#">Sciences naturelles<br />&#38; Math&#233;matiques</a><ul><li class="submenufirst"><a href="http://ptaff.ca/sigleSRC/">Ici Radio-Canada</a></li><li><a href="http://ptaff.ca/air/">Estimation des volumes d'air transitant par<br />diff&#233;rents moteurs dans un environnement urbain</a></li><li><a href="http://ptaff.ca/air/budget/">Estimez la consommation d'air, pour vous ou<br />un groupe de personnes (famille, ville, etc.)</a></li><li><a href="http://ptaff.ca/humidex/">Du refroidissement &#233;olien et du facteur humidex</a></li><li><a href="http://ptaff.ca/orage_montreal/">1&#160;696 coups de foudre, le film</a></li><li><a href="http://ptaff.ca/records_temperatures_precipitations_canada/">Canada : climat extr&#234;me</a></li><li><a href="http://ptaff.ca/routes_du_quebec/">&#201;tude de la fr&#233;quence des &#233;v&#233;nements<br />m&#233;t&#233;orologiques pr&#233;curseurs des nids-de-poule</a></li><li class="submenulast"><a href="http://ptaff.ca/sciences/">&#192; propos de <strong>Sciences naturelles &#38; Math&#233;matiques</strong></a></li></ul></li><li id="activeone" class="l1-arts"><a class="doubleline" href="#">Arts &#38;<br />Loisirs</a><ul><li class="submenufirst"><a href="http://tuxstickers.ptaff.ca/?lang=fr_CA">Procurez-vous un autocollant Tux!</a></li><li><a href="http://ptaff.ca/hexil/">Le livre d'Hexil</a></li><li><a href="http://ptaff.ca/midi/">Indulgences pour tympan</a></li><li><a href="http://ptaff.ca/radio_montreal/">Liste des stations de radio &#224; Montr&#233;al</a></li><li><a href="http://ptaff.ca/theatre_montreal/">Liste des th&#233;&#226;tres de Montr&#233;al</a></li><li><a href="http://ptaff.ca/bridge/encheres/">Bridge, guide d'ench&#232;res</a></li><li><a href="http://ptaff.ca/bridge/duplicata/">Bridge, tables de pointage duplicata</a></li><li><a href="http://ptaff.ca/bridge/annexe/">Bridge, tables de pointage robre</a></li><li><a href="http://ptaff.ca/99/">Les r&#232;glements du 99</a></li><li><a href="http://ptaff.ca/99/essai/">Essai sur le 99</a></li><li class="submenulast"><a href="http://ptaff.ca/arts/" rel="tag">&#192; propos de <strong>Arts &#38; Loisirs</strong></a></li></ul></li><li class="l1-litterature"><a class="doubleline" href="#">Litt&#233;rature<br />&#38; Rh&#233;torique</a><ul><li class="submenufirst"><a href="http://ptaff.ca/titane/">Titane&#160;: &#233;l&#233;ment 22, Premi&#232;re partie&#160;: la fracture</a></li><li><a href="http://ptaff.ca/titane2/">Titane&#160;: &#233;l&#233;ment 22, Deuxi&#232;me partie&#160;: les <span xml:lang="en">gamblers</span></a></li><li><a href="http://ptaff.ca/titane3/">Titane&#160;: &#233;l&#233;ment 22, Troisi&#232;me partie&#160;: les deux tours</a></li><li><a href="http://ptaff.ca/titane4/">Titane&#160;: &#233;l&#233;ment 22, Quatri&#232;me partie&#160;: &#233;pilogue</a></li><li><a href="http://ptaff.ca/gaston/">Gaston Tremblay, missionnaire</a></li><li><a href="http://ptaff.ca/ptafflist/">Archives de ptafflist</a></li><li><a href="http://ptaff.ca/ptaffgnu/">Archives de ptaffgnu</a></li><li><a href="http://ptaff.ca/blogue/">Blogue :: Hors des lieux communs</a></li><li class="submenulast"><a href="http://ptaff.ca/litterature/">&#192; propos de <strong>Litt&#233;rature &#38; Rh&#233;torique</strong></a></li></ul></li><li class="l1-histoire"><a class="doubleline" href="#">Histoire &#38;<br />G&#233;ographie</a><ul><li class="submenufirst"><a href="http://ptaff.ca/soleil/">Soleil</a></li><li><a href="http://ptaff.ca/al-shifa/">L'usine pharmaceutique d'Al-Shifa</a></li><li><a href="http://ptaff.ca/feux/">Perspective sur les feux d'artifice de Montr&#233;al</a></li><li><a href="http://ptaff.ca/continents/">Domaines de premier niveau par continents</a></li><li class="submenulast"><a href="http://ptaff.ca/histoire_et_geographie/">&#192; propos de <strong>Histoire &#38; G&#233;ographie</strong></a></li></ul></li></ul></form>
+
+<!--
+<rdf:RDF xmlns:cc="http://web.resource.org/cc/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:geo="http://geotags.com/geo/"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+	<cc:Work rdf:about="http://ptaff.ca/bridge/encheres/?lang=fr_CA">
+		<cc:license rdf:resource="http://www.gnu.org/copyleft/fdl.html" />
+		<dc:creator>
+			<foaf:Person>
+				<foaf:name>Patrice Levesque</foaf:name>
+				<rdfs:seeAlso rdf:resource="http://ptaff.ca/wayne/foaf.rdf" />
+			</foaf:Person>
+		</dc:creator>
+		<dc:date xsi:type="dcterms:W3CDTF">2002</dc:date>
+		<dc:description>Tables de pointage, syst&#232;me d'ench&#232;res et aide-m&#233;moire pour le jeu de bridge.</dc:description>
+		<dc:format xsi:type="dcterms:IMT">application/xhtml+xml</dc:format>
+		<dc:identifier xsi:type="dcterms:URI">http://ptaff.ca/bridge/encheres/?lang=fr_CA</dc:identifier>
+		<dc:language xsi:type="dcterms:RFC3066">fr</dc:language>
+		<dc:publisher rdf:resource="http://ptaff.ca/manifeste/" />
+		<dc:rights rdf:resource="http://www.gnu.org/copyleft/fdl.html" />
+		<dc:rightsholder>Patrice Levesque</dc:rightsholder>
+		<dc:title>Bridge, guide d'ench&#232;res</dc:title>
+		<dc:type>Text</dc:type>
+		<dcterms:conformsTo rdf:resource="http://www.w3.org/TR/CSS21/" />
+		<dcterms:conformsTo rdf:resource="http://www.w3.org/TR/xhtml11/" />
+		<dcterms:conformsTo rdf:resource="http://www.w3.org/TR/WCAG10/" />
+		<dcterms:created xsi:type="dcterms:W3CDTF">2002</dcterms:created>
+		<dcterms:datecopyrighted xsi:type="dcterms:W3CDTF">2002</dcterms:datecopyrighted>
+		<dcterms:modified xsi:type="dcterms:W3CDTF">2013-04-23</dcterms:modified>
+		<geo:placename>Villeray, Montreal</geo:placename>
+		<geo:position>45.5505; -73.6133</geo:position>
+		<geo:region>CA-QC</geo:region>
+	</cc:Work>
+	<cc:License rdf:about="http://www.gnu.org/copyleft/fdl.html">
+		<cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+		<cc:permits rdf:resource="http://web.resource.org/cc/Distribution" />
+		<cc:permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+		<cc:requires rdf:resource="http://web.resource.org/cc/Notice" />
+		<cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+		<cc:requires rdf:resource="http://web.resource.org/cc/SourceCode" />
+	</cc:License>
+</rdf:RDF>
+-->
+<!--
+set loop
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:35.0) Gecko/20100101 Firefox/35.0
+text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+application/xhtml+xml
+LANG:fr_CA
+LANGUAGE:fr_CA
+-->
+	</body>
+</html>
